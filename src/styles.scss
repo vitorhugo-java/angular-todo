@@ -20,4 +20,7 @@ input {
   width: 300px;
   font-size: 16px;
   background-color: #fff;
-}
+  @use './styles/variables' as *;
+  @use './styles/mixins' as *;
+  @use './styles/functions' as *;
+  @import './app/app.scss';

@@ -1,9 +1,12 @@
+
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
 .todo-list {
-  display: flex;
+  @include flex-center;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
-  gap: 10px;
+  gap: rem(10);
   width: 100%;
 }
 
@@ -13,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px;
-  border: 1px solid var(--color-primary);
-  border-radius: 4px;
+  padding: rem(10);
+  border: 1px solid $primary-color;
+  border-radius: $border-radius;
 }
