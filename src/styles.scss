@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-primary: #4c77af;
+  --color-secondary: #f44336;
+  --color-background: #292727;
+  --color-text: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 300px;
+  font-size: 16px;
+  background-color: #fff;
+}

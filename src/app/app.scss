@@ -1,0 +1,41 @@
+:root {
+  --color-primary: #4c77af;
+  --color-secondary: #f44336;
+  --color-background: #292727;
+  --color-text: #ffffff;
+}
+
+.input-add-todo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.search-input {
+  margin-top: 2%;
+  border: none;
+  border-radius: 4px;
+  width: 25rem;
+  font-size: 16px;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.button-add-task {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo-list-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

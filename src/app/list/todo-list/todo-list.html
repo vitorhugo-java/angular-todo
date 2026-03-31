@@ -1,0 +1,10 @@
+<div class="todo-list">
+  @for (item of items; track $index) {
+    <div class="todo-item">
+      <span>{{ item }}</span>
+      @if (item !== 'test') {
+        <button (click)="removeItem($index)">Remove</button>
+      }
+    </div>
+  }
+</div>
